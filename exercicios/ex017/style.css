@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+    color: black;
+    /*
+    Medidas absolutas
+    cm, mm, in, px*, pt, pc
+
+    Medidas Relativas
+    em*, ex, rem, vw, vh, %
+    */
+    font-size: 1em;
+    
+    /* weight PESO ; width LARGURA ; height ALTURA */
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorange;
+    /* shorthand font
+    - font-style -> font-weight -> font size -> font family
+    */
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
