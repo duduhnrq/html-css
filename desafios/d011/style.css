@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(106, 36, 199);
+}
+
+a:hover{
+    color: #471a83 !important;
+}
+
+li{
+    list-style: none;
+}
+
+nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 1px, 1px, 8px, rgb(71, 26, 131);
+}
+
+nav ul, footer 
