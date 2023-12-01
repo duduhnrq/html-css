@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root{
+    --cor001: #5A49F9;
+    --cor002: #471a83;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -10,6 +15,14 @@ html{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+}
+
+div.logo {
+    font-style: italic;
+}
+
+div.logo span {
+    color: rgb(111, 49, 170)
 }
 
 a{
@@ -34,7 +47,121 @@ nav {
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    box-shadow: 1px, 1px, 8px, rgb(71, 26, 131);
+    box-shadow: 0px 0px 30px rgba(72, 26, 131, 0.185);
 }
 
-nav ul, footer 
+nav a {
+    margin-left: 8px; 
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav button {
+    color: var(--cor001);background-color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid var(--cor001);
+    border-radius: 5px;
+}
+
+nav button:hover {
+    color: #fff;
+    background-color: var(--cor001);
+}
+
+.principal {
+    display: flex;
+    background-color: aliceblue;
+    height: 950px;
+}
+
+.principal .direita {
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 150px
+}
+
+.principal .esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 40px;
+    margin-left: 100px ;  
+    margin-top: 300px;
+}
+
+.principal .esquerda h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.principal .esquerda h3 span{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--cor001);
+}
+
+.principal .esquerda p {
+    color: var(--cor002);
+    width: 700px;
+}
+
+.principal .esquerda button {
+    margin-top: 40px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--cor001);
+    padding: 14px 24px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.habilidades {
+    padding: 110px 85px;
+}
+
+.habilidades h3,
+.sobre .direita h3,
+.portifolio .header h3,
+.feedback h3 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.habilidades .habilidades-itens{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.habilidades .habilidades-itens .itens{
+    background-color: aliceblue;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.habilidades .habilidades-itens .itens:hover{
+    border-color: var(--cor001);
+}
+
+.habilidades .habilidades-itens .itens .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    box-shadow: 0px 0px 30px rgba(72, 26, 131, 0.185);
+}
