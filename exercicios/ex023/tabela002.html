@@ -19,7 +19,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
-        }
+            position: relative;
+        } 
 
         td, th {
             border: 1px solid black;
@@ -29,6 +30,16 @@
         thead, tfoot {
             color: white;
             background-color: grey;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         .num {
@@ -70,6 +81,14 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -78,5 +97,6 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque necessitatibus aperiam labore libero, illo assumenda ducimus porro illum, fuga voluptatem cupiditate suscipit placeat reprehenderit quia atque. Reiciendis quis asperiores aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum reiciendis vero, quibusdam eaque a quod expedita temporibus delectus quo nulla magnam laudantium, dolor iste quis? Nemo distinctio facere commodi quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, excepturi ipsum tempore repellat animi non blanditiis ducimus repellendus fugit perspiciatis molestias consectetur sed commodi autem temporibus itaque dolorem reprehenderit iusto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque deleniti odit magnam aspernatur iste quasi accusamus excepturi eum cum commodi iure rerum, voluptatem blanditiis voluptates consequuntur distinctio autem aliquid aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque necessitatibus aperiam labore libero, illo assumenda ducimus porro illum, fuga voluptatem cupiditate suscipit placeat reprehenderit quia atque. Reiciendis quis asperiores aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum reiciendis vero, quibusdam eaque a quod expedita temporibus delectus quo nulla magnam laudantium, dolor iste quis? Nemo distinctio facere commodi quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, excepturi ipsum tempore repellat animi non blanditiis ducimus repellendus fugit perspiciatis molestias consectetur sed commodi autem temporibus itaque dolorem reprehenderit iusto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque deleniti odit magnam aspernatur iste quasi accusamus excepturi eum cum commodi iure rerum, voluptatem blanditiis voluptates consequuntur distinctio autem aliquid aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque necessitatibus aperiam labore libero, illo assumenda ducimus porro illum, fuga voluptatem cupiditate suscipit placeat reprehenderit quia atque. Reiciendis quis asperiores aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum reiciendis vero, quibusdam eaque a quod expedita temporibus delectus quo nulla magnam laudantium, dolor iste quis? Nemo distinctio facere commodi quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, excepturi ipsum tempore repellat animi non blanditiis ducimus repellendus fugit perspiciatis molestias consectetur sed commodi autem temporibus itaque dolorem reprehenderit iusto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque deleniti odit magnam aspernatur iste quasi accusamus excepturi eum cum commodi iure rerum, voluptatem blanditiis voluptates consequuntur distinctio autem aliquid aut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque necessitatibus aperiam labore libero, illo assumenda ducimus porro illum, fuga voluptatem cupiditate suscipit placeat reprehenderit quia atque. Reiciendis quis asperiores aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum reiciendis vero, quibusdam eaque a quod expedita temporibus delectus quo nulla magnam laudantium, dolor iste quis? Nemo distinctio facere commodi quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, excepturi ipsum tempore repellat animi non blanditiis ducimus repellendus fugit perspiciatis molestias consectetur sed commodi autem temporibus itaque dolorem reprehenderit iusto? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque deleniti odit magnam aspernatur iste quasi accusamus excepturi eum cum commodi iure rerum, voluptatem blanditiis voluptates consequuntur distinctio autem aliquid aut.</p>
 </body>
 </html>
