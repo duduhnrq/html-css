@@ -46,10 +46,39 @@
             padding: 10px;
 
         }
+
+        div.button {
+            background-color: rgb(48, 72, 209);
+            padding: 2em;
+            border-radius: 10%;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+            margin: auto;    
+            width: 200px;
+            color: white;
+            text-align: center;
+            font: bold 1.5em Helvetica;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        div:hover {
+            background-color: white;
+            color: rgb(48, 72, 209);
+            transform: scale(1.1);
+        }
+
+        body {
+            background-color: rgb(161, 151, 140);
+        }
     </style>
 </head>
 <body>
     <h1>Exemplo de caixa box-level</h1>
     <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>    
+
+    <div class="button">
+        <p>
+            Olá, mundo!
+        </p>
+    </div>
 </body>
 </html>
